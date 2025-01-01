@@ -1,8 +1,7 @@
 - 👋 Hi, I’m @SaitejaKommi
 - 👀 I’m interested in SOFTWARE DEVELOPMENT
 - 🌱 I’m currently learning COMPUTER SCIENCE
-- 💞️ I’m looking to collaborate on ...
-- 📫 U can reach me in scaler school of technology in banglore 
+- 📫 U Can Reach Me In Scaler School Of Technology
 - ⚡ fact: Well done is better than well said👍
 
 <!---
