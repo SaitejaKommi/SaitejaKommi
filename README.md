@@ -1,6 +1,6 @@
 <!-- ===================== BANNER ===================== -->
 <h1 align="center">Hi, I'm Saiteja 👋</h1>
-<h3 align="center">B.Tech CSE Student | Aspiring AI / ML Engineer | Open Source Enthusiast</h3>
+<h3 align="center">Aspiring AI / ML Engineer | MERN Stack Developer</h3>
 
 <p align="center">
   <a href="https://github.com/SaitejaKommi">
