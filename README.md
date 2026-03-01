@@ -12,7 +12,7 @@
 
 ## 🧭 About Me
 
-- 🎓 B.Tech **Computer Science & Engineering** student  
+- 🎓 **Computer Science & Engineering** student  
 - 🤖 Aspiring **AI / Machine Learning Engineer**
 - 🧠 Strong foundation in **Python**, **Data Structures**, and **Databases**
 - ⚙️ Interested in **machine learning systems**, **model deployment**, and **scalable AI solutions**
