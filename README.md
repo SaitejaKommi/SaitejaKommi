@@ -12,11 +12,11 @@
 
 ## 🧭 About Me
 
-- 🎓 **Computer Science & Engineering** student  
-- 🤖 Aspiring **AI / Machine Learning Engineer**
-- 🧠 Strong foundation in **Python**, **Data Structures**, and **Databases**
-- ⚙️ Interested in **machine learning systems**, **model deployment**, and **scalable AI solutions**
-- 🌱 Actively learning **ML fundamentals, NumPy, Pandas, and applied AI**
+- 🤖 GenAI & Machine Learning Enthusiast
+- 🚀 Building intelligent applications using **LLMs, AI APIs, and data-driven systems**
+- 🧠 Skilled in **Python, Data Structures, and Backend Development**
+- ⚙️ Exploring **AI system design, embeddings, RAG pipelines, and deployment**
+- 🌱 Learning continuously through **open-source contributions and real-world projects**
 
 ---
 
