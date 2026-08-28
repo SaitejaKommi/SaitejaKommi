@@ -1,0 +1,50 @@
+name: Update Mario Contribution World
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-mario:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install Pillow requests numpy
+
+      - name: Fetch Contribution Data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/fetch_contributions.py
+
+      - name: Generate Mario Animation
+        run: |
+          python scripts/generate_mario.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add assets/generated/
+          if git diff --cached --quiet; then
+            echo "No changes detected in generated assets."
+          else
+            git commit -m "chore(mario): update 7-row contribution animation [skip ci]"
+            git push
+          fi
