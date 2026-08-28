@@ -85,15 +85,14 @@ def load_sprites():
     mario_idle_r = idle_raw.resize((20, 26), Image.Resampling.LANCZOS)
     mario_idle_l = ImageOps.mirror(mario_idle_r)
 
-    run_raw = Image.open(os.path.join(ASSETS_DIR, "running mario.jpg"))
-    run_clean = remove_white_bg(run_raw)
-    mario_run1_r = run_clean.resize((21, 26), Image.Resampling.LANCZOS)
+    # Running Leg 1: Left leg forward, right leg back (from mario.png)
+    mario_run1_r = idle_raw.resize((21, 26), Image.Resampling.LANCZOS)
     mario_run1_l = ImageOps.mirror(mario_run1_r)
 
-    mario_run2_r = mario_run1_r.resize((20, 25), Image.Resampling.LANCZOS)
-    pad = Image.new("RGBA", (21, 26), (0, 0, 0, 0))
-    pad.paste(mario_run2_r, (0, 1))
-    mario_run2_r = pad
+    # Running Leg 2: Right leg forward, left leg back (from running mario.jpg)
+    run_raw = Image.open(os.path.join(ASSETS_DIR, "running mario.jpg"))
+    run_clean = remove_white_bg(run_raw)
+    mario_run2_r = run_clean.resize((21, 26), Image.Resampling.LANCZOS)
     mario_run2_l = ImageOps.mirror(mario_run2_r)
 
     hit_raw = Image.open(os.path.join(ASSETS_DIR, "hitting coin.jpg"))
