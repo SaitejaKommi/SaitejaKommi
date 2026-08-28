@@ -76,6 +76,58 @@ def remove_white_bg(img, dist_thresh=35):
     bbox = res.getbbox()
     return res.crop(bbox) if bbox else res
 
+def create_flame_sprite(width=11, height=14):
+    # Supersampled 3-tier organic flame icon with smooth anti-aliased curves
+    scale = 4
+    sw, sh = width * scale, height * scale
+    im = Image.new("RGBA", (sw, sh), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    
+    # Outer flame (Vibrant flame red-orange)
+    outer_pts = [
+        (sw * 0.50, sh * 0.05),
+        (sw * 0.64, sh * 0.28),
+        (sw * 0.82, sh * 0.18),
+        (sw * 0.74, sh * 0.45),
+        (sw * 0.94, sh * 0.65),
+        (sw * 0.86, sh * 0.86),
+        (sw * 0.50, sh * 0.98),
+        (sw * 0.14, sh * 0.86),
+        (sw * 0.06, sh * 0.65),
+        (sw * 0.26, sh * 0.45),
+        (sw * 0.18, sh * 0.25),
+        (sw * 0.36, sh * 0.30),
+    ]
+    d.polygon(outer_pts, fill=(255, 69, 0, 255))
+    
+    # Mid flame (Warm orange)
+    mid_pts = [
+        (sw * 0.50, sh * 0.20),
+        (sw * 0.62, sh * 0.38),
+        (sw * 0.74, sh * 0.42),
+        (sw * 0.82, sh * 0.66),
+        (sw * 0.74, sh * 0.84),
+        (sw * 0.50, sh * 0.92),
+        (sw * 0.26, sh * 0.84),
+        (sw * 0.18, sh * 0.66),
+        (sw * 0.30, sh * 0.45),
+        (sw * 0.38, sh * 0.38),
+    ]
+    d.polygon(mid_pts, fill=(255, 145, 0, 255))
+    
+    # Inner flame core (Bright glowing golden-yellow)
+    inner_pts = [
+        (sw * 0.50, sh * 0.42),
+        (sw * 0.64, sh * 0.64),
+        (sw * 0.58, sh * 0.84),
+        (sw * 0.50, sh * 0.88),
+        (sw * 0.42, sh * 0.84),
+        (sw * 0.36, sh * 0.64),
+    ]
+    d.polygon(inner_pts, fill=(255, 225, 45, 255))
+    
+    return im.resize((width, height), Image.Resampling.LANCZOS)
+
 def load_sprites():
     # Scale Mario to match authentic ~12px GitHub contribution cells
     # Mario: width 20, height 26
@@ -107,9 +159,14 @@ def load_sprites():
 
     coin_raw = Image.open(os.path.join(ASSETS_DIR, "coin.webp")).convert("RGBA")
     c_bbox = coin_raw.getbbox()
-    coin_raw = coin_raw.crop(c_bbox) if c_bbox else coin_raw
     coin_sprite = coin_raw.resize((12, 15), Image.Resampling.LANCZOS)
     coin_small = coin_raw.resize((10, 12), Image.Resampling.LANCZOS)
+    fire_path = os.path.join(ASSETS_DIR, "fire_emoji.png")
+    if os.path.exists(fire_path):
+        fire_raw = Image.open(fire_path).convert("RGBA")
+        flame_sprite = fire_raw.resize((12, 14), Image.Resampling.LANCZOS)
+    else:
+        flame_sprite = create_flame_sprite(11, 14)
 
     return {
         "idle_r": mario_idle_r,
@@ -123,7 +180,8 @@ def load_sprites():
         "slide_r": mario_slide_r,
         "slide_l": mario_slide_l,
         "coin": coin_sprite,
-        "coin_small": coin_small
+        "coin_small": coin_small,
+        "flame": flame_sprite
     }
 
 def get_block_colors(level, cnt):
@@ -520,7 +578,7 @@ def render_world_background(draw, layout, data, font_sub, font_small):
         draw.rectangle([bx, r6_floor - 44, bx + 6, r6_floor - 38], fill=(35, 42, 52), outline=BORDER_COLOR)
     draw.rectangle([cx + 14, r6_floor - 20, cx + 26, r6_floor], fill=(13, 17, 23))
 
-def render_hud(img, draw, font_title, font_sub, font_bold, data, current_coins, total_coins, curr_date, curr_weekday, coin_small):
+def render_hud(img, draw, font_title, font_sub, font_bold, data, current_coins, total_coins, curr_date, curr_weekday, coin_small, flame_sprite):
     # In-world HUD floating seamlessly on the same dark space background (no separate rectangular panel or border)
     
     # Left: Username only (no game title, no green icon)
@@ -543,10 +601,10 @@ def render_hud(img, draw, font_title, font_sub, font_bold, data, current_coins, 
     # Right: Real Streak (🔥 Nd without 'STREAK' word) & Dynamic Coins (🪙 current / total)
     streak = data.get("current_streak", 0)
     
-    # Flame icon + streak
-    fx = 550
-    draw.polygon([(fx, 20), (fx + 4, 10), (fx + 8, 16), (fx + 12, 11), (fx + 16, 22), (fx + 8, 28)], fill=TEXT_FIRE)
-    draw.text((fx + 21, 11), f"{streak}d", fill=TEXT_FIRE, font=font_bold)
+    # Clean, organic, 3-layer anti-aliased flame icon + streak
+    fx = 556
+    img.paste(flame_sprite, (fx, 9), flame_sprite)
+    draw.text((fx + 16, 11), f"{streak}d", fill=TEXT_FIRE, font=font_bold)
     
     # Coin icon + counter
     cx = 640
@@ -712,7 +770,7 @@ def main():
         # Render HUD
         render_hud(
             viewport, draw_view, font_title, font_sub, font_bold,
-            data, current_coins, total_coins, curr_date, curr_dayname, sprites["coin_small"]
+            data, current_coins, total_coins, curr_date, curr_dayname, sprites["coin_small"], sprites["flame"]
         )
 
         # Victory Banner
