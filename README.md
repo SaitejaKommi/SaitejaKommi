@@ -14,13 +14,13 @@
 
 ---
 
-## 🧭 About Me
+## About Me
 
 AI Engineer focused on Machine Learning, Generative AI, and intelligent systems. I build practical AI applications and robust backend systems, while actively contributing to open-source software and exploring autonomous AI workflows.
 
 ---
 
-## 🎮 My GitHub Journey
+## My GitHub Journey
 
 <p align="center">
   <img src="assets/generated/mario-github.gif" alt="Mario traveling through my GitHub contribution history" width="100%" />
@@ -30,7 +30,7 @@ AI Engineer focused on Machine Learning, Generative AI, and intelligent systems.
 
 ---
 
-## 🚀 Projects & Achievements
+## Projects & Achievements
 
 ### **Featured Projects**
 
@@ -99,7 +99,7 @@ AI Engineer focused on Machine Learning, Generative AI, and intelligent systems.
 
 ---
 
-## 🧠 GitHub Profile Summary
+## GitHub Profile Summary
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SaitejaKommi&theme=github_dark" />
