@@ -624,15 +624,32 @@ def render_victory_banner(img, draw, font_title, font_bold, font_sub, total_coin
     draw_star(draw, bx + 26, by + 20, 6, 2.5, TEXT_GOLD)
     draw_star(draw, bx + bw - 26, by + 20, 6, 2.5, TEXT_GOLD)
     
-    draw.text((bx + 44, by + 12), "COMMIT CHALLENGE COMPLETE!", fill=TEXT_GOLD, font=font_title)
+    # Title: YEAR OF BUILDING COMPLETE!
+    title_text = "YEAR OF BUILDING COMPLETE!"
+    t_bbox = font_title.getbbox(title_text)
+    t_w = t_bbox[2] - t_bbox[0] if t_bbox else 200
+    draw.text((bx + (bw - t_w) // 2, by + 12), title_text, fill=TEXT_GOLD, font=font_title)
     
-    img.paste(coin_small, (bx + 90, by + 45), coin_small)
-    draw.text((bx + 108, by + 44), f"FINAL COINS: {total_coins} / {total_coins}", fill=TEXT_WHITE, font=font_bold)
+    # Coins line: coin icon + FINAL COINS: 628 / 628
+    coin_text = f"FINAL COINS: {total_coins} / {total_coins}"
+    c_bbox = font_bold.getbbox(coin_text)
+    c_w = c_bbox[2] - c_bbox[0] if c_bbox else 140
+    total_c_w = 12 + 6 + c_w
+    start_c_x = bx + (bw - total_c_w) // 2
+    img.paste(coin_small, (start_c_x, by + 45), coin_small)
+    draw.text((start_c_x + 18, by + 44), coin_text, fill=TEXT_WHITE, font=font_bold)
     
-    line3 = f"100% OF REAL COMMITS CRUSHED | Max Streak: {longest_streak}d"
-    draw.text((bx + 30, by + 72), line3, fill=TEXT_FIRE, font=font_bold)
+    # Line 3: GROWTH THROUGH BUILDING | Max Streak: Nd
+    line3 = f"GROWTH THROUGH BUILDING | Max Streak: {longest_streak}d"
+    l3_bbox = font_bold.getbbox(line3)
+    l3_w = l3_bbox[2] - l3_bbox[0] if l3_bbox else 250
+    draw.text((bx + (bw - l3_w) // 2, by + 72), line3, fill=TEXT_FIRE, font=font_bold)
     
-    draw.text((bx + 110, by + 98), "SaitejaKommi's GitHub Year", fill=TEXT_MUTED, font=font_sub)
+    # Subtitle: SaitejaKommi's GitHub Year
+    sub_text = "SaitejaKommi's GitHub Year"
+    sub_bbox = font_sub.getbbox(sub_text)
+    sub_w = sub_bbox[2] - sub_bbox[0] if sub_bbox else 150
+    draw.text((bx + (bw - sub_w) // 2, by + 98), sub_text, fill=TEXT_MUTED, font=font_sub)
 
 def main():
     print("Generating Authentic GitHub 'The Commit Crush' Animation...")
