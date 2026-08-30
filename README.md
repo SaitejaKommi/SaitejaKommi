@@ -23,7 +23,7 @@ AI Engineer focused on Machine Learning, Generative AI, and intelligent systems.
 ## My GitHub Journey
 
 <p align="center">
-  <img src="assets/generated/mario-github.gif?v=3" alt="Mario traveling through my GitHub contribution history" width="100%" />
+  <img src="assets/generated/mario-github.gif?v=4" alt="Mario traveling through my GitHub contribution history" width="100%" />
 </p>
 
 > A visual journey through my real GitHub contribution history — Mario navigates the calendar, crushes contribution blocks, and collects coins based on my actual activity.
