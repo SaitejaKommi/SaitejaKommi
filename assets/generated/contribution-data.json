@@ -1,13 +1,13 @@
 {
   "username": "SaitejaKommi",
-  "generated_at": "2026-08-30T04:19:32.481787+00:00",
-  "total_contributions": 661,
-  "active_days": 120,
+  "generated_at": "2026-08-30T10:45:24.897364+00:00",
+  "total_contributions": 658,
+  "active_days": 119,
   "total_calendar_days": 365,
   "num_weeks": 53,
   "start_date": "2025-08-31",
   "end_date": "2026-08-30",
-  "current_streak": 7,
+  "current_streak": 8,
   "longest_streak": 29,
   "weekday_names": [
     "Sun",
@@ -76,15 +76,15 @@
     {
       "weekday": 0,
       "name": "Sun",
-      "total_contributions": 79,
-      "active_days": 17,
+      "total_contributions": 81,
+      "active_days": 18,
       "total_days": 53
     },
     {
       "weekday": 1,
       "name": "Mon",
-      "total_contributions": 73,
-      "active_days": 15,
+      "total_contributions": 72,
+      "active_days": 14,
       "total_days": 52
     },
     {
@@ -104,21 +104,21 @@
     {
       "weekday": 4,
       "name": "Thu",
-      "total_contributions": 91,
-      "active_days": 17,
+      "total_contributions": 89,
+      "active_days": 16,
       "total_days": 52
     },
     {
       "weekday": 5,
       "name": "Fri",
-      "total_contributions": 136,
+      "total_contributions": 135,
       "active_days": 18,
       "total_days": 52
     },
     {
       "weekday": 6,
       "name": "Sat",
-      "total_contributions": 124,
+      "total_contributions": 123,
       "active_days": 16,
       "total_days": 52
     }
@@ -310,14 +310,14 @@
       {
         "date": "2026-03-01",
         "contributions": 4,
-        "level": 1,
+        "level": 2,
         "weekday": 0,
         "week_idx": 26
       },
       {
         "date": "2026-03-08",
         "contributions": 8,
-        "level": 2,
+        "level": 3,
         "weekday": 0,
         "week_idx": 27
       },
@@ -359,7 +359,7 @@
       {
         "date": "2026-04-19",
         "contributions": 8,
-        "level": 2,
+        "level": 3,
         "weekday": 0,
         "week_idx": 33
       },
@@ -380,7 +380,7 @@
       {
         "date": "2026-05-10",
         "contributions": 5,
-        "level": 1,
+        "level": 2,
         "weekday": 0,
         "week_idx": 36
       },
@@ -394,7 +394,7 @@
       {
         "date": "2026-05-24",
         "contributions": 7,
-        "level": 2,
+        "level": 3,
         "weekday": 0,
         "week_idx": 38
       },
@@ -408,7 +408,7 @@
       {
         "date": "2026-06-07",
         "contributions": 6,
-        "level": 1,
+        "level": 3,
         "weekday": 0,
         "week_idx": 40
       },
@@ -422,7 +422,7 @@
       {
         "date": "2026-06-21",
         "contributions": 4,
-        "level": 1,
+        "level": 2,
         "weekday": 0,
         "week_idx": 42
       },
@@ -436,21 +436,21 @@
       {
         "date": "2026-07-05",
         "contributions": 15,
-        "level": 3,
+        "level": 4,
         "weekday": 0,
         "week_idx": 44
       },
       {
         "date": "2026-07-12",
         "contributions": 8,
-        "level": 2,
+        "level": 3,
         "weekday": 0,
         "week_idx": 45
       },
       {
         "date": "2026-07-19",
         "contributions": 6,
-        "level": 1,
+        "level": 3,
         "weekday": 0,
         "week_idx": 46
       },
@@ -491,8 +491,8 @@
       },
       {
         "date": "2026-08-30",
-        "contributions": 0,
-        "level": 0,
+        "contributions": 2,
+        "level": 1,
         "weekday": 0,
         "week_idx": 52
       }
@@ -592,7 +592,7 @@
       {
         "date": "2025-12-01",
         "contributions": 3,
-        "level": 1,
+        "level": 2,
         "weekday": 1,
         "week_idx": 13
       },
@@ -640,8 +640,8 @@
       },
       {
         "date": "2026-01-19",
-        "contributions": 1,
-        "level": 1,
+        "contributions": 0,
+        "level": 0,
         "weekday": 1,
         "week_idx": 20
       },
@@ -697,14 +697,14 @@
       {
         "date": "2026-03-16",
         "contributions": 3,
-        "level": 1,
+        "level": 2,
         "weekday": 1,
         "week_idx": 28
       },
       {
         "date": "2026-03-23",
         "contributions": 18,
-        "level": 3,
+        "level": 4,
         "weekday": 1,
         "week_idx": 29
       },
@@ -732,7 +732,7 @@
       {
         "date": "2026-04-20",
         "contributions": 3,
-        "level": 1,
+        "level": 2,
         "weekday": 1,
         "week_idx": 33
       },
@@ -823,7 +823,7 @@
       {
         "date": "2026-07-20",
         "contributions": 8,
-        "level": 2,
+        "level": 3,
         "weekday": 1,
         "week_idx": 46
       },
@@ -994,7 +994,7 @@
       {
         "date": "2026-01-06",
         "contributions": 6,
-        "level": 1,
+        "level": 3,
         "weekday": 2,
         "week_idx": 18
       },
@@ -1008,7 +1008,7 @@
       {
         "date": "2026-01-20",
         "contributions": 5,
-        "level": 1,
+        "level": 2,
         "weekday": 2,
         "week_idx": 20
       },
@@ -1050,14 +1050,14 @@
       {
         "date": "2026-03-03",
         "contributions": 13,
-        "level": 2,
+        "level": 4,
         "weekday": 2,
         "week_idx": 26
       },
       {
         "date": "2026-03-10",
         "contributions": 3,
-        "level": 1,
+        "level": 2,
         "weekday": 2,
         "week_idx": 27
       },
@@ -1099,7 +1099,7 @@
       {
         "date": "2026-04-21",
         "contributions": 10,
-        "level": 2,
+        "level": 4,
         "weekday": 2,
         "week_idx": 33
       },
@@ -1148,7 +1148,7 @@
       {
         "date": "2026-06-09",
         "contributions": 4,
-        "level": 1,
+        "level": 2,
         "weekday": 2,
         "week_idx": 40
       },
@@ -1176,28 +1176,28 @@
       {
         "date": "2026-07-07",
         "contributions": 17,
-        "level": 3,
+        "level": 4,
         "weekday": 2,
         "week_idx": 44
       },
       {
         "date": "2026-07-14",
         "contributions": 8,
-        "level": 2,
+        "level": 3,
         "weekday": 2,
         "week_idx": 45
       },
       {
         "date": "2026-07-21",
         "contributions": 5,
-        "level": 1,
+        "level": 2,
         "weekday": 2,
         "week_idx": 46
       },
       {
         "date": "2026-07-28",
         "contributions": 7,
-        "level": 2,
+        "level": 3,
         "weekday": 2,
         "week_idx": 47
       },
@@ -1211,7 +1211,7 @@
       {
         "date": "2026-08-11",
         "contributions": 8,
-        "level": 2,
+        "level": 3,
         "weekday": 2,
         "week_idx": 49
       },
@@ -1333,7 +1333,7 @@
       {
         "date": "2025-12-10",
         "contributions": 3,
-        "level": 1,
+        "level": 2,
         "weekday": 3,
         "week_idx": 14
       },
@@ -1424,14 +1424,14 @@
       {
         "date": "2026-03-11",
         "contributions": 5,
-        "level": 1,
+        "level": 2,
         "weekday": 3,
         "week_idx": 27
       },
       {
         "date": "2026-03-18",
         "contributions": 4,
-        "level": 1,
+        "level": 2,
         "weekday": 3,
         "week_idx": 28
       },
@@ -1445,7 +1445,7 @@
       {
         "date": "2026-04-01",
         "contributions": 4,
-        "level": 1,
+        "level": 2,
         "weekday": 3,
         "week_idx": 30
       },
@@ -1466,7 +1466,7 @@
       {
         "date": "2026-04-22",
         "contributions": 6,
-        "level": 1,
+        "level": 3,
         "weekday": 3,
         "week_idx": 33
       },
@@ -1480,7 +1480,7 @@
       {
         "date": "2026-05-06",
         "contributions": 9,
-        "level": 2,
+        "level": 4,
         "weekday": 3,
         "week_idx": 35
       },
@@ -1508,7 +1508,7 @@
       {
         "date": "2026-06-03",
         "contributions": 4,
-        "level": 1,
+        "level": 2,
         "weekday": 3,
         "week_idx": 39
       },
@@ -1536,7 +1536,7 @@
       {
         "date": "2026-07-01",
         "contributions": 10,
-        "level": 2,
+        "level": 4,
         "weekday": 3,
         "week_idx": 43
       },
@@ -1578,7 +1578,7 @@
       {
         "date": "2026-08-12",
         "contributions": 3,
-        "level": 1,
+        "level": 2,
         "weekday": 3,
         "week_idx": 49
       },
@@ -1714,14 +1714,14 @@
       {
         "date": "2025-12-25",
         "contributions": 4,
-        "level": 1,
+        "level": 2,
         "weekday": 4,
         "week_idx": 16
       },
       {
         "date": "2026-01-01",
         "contributions": 3,
-        "level": 1,
+        "level": 2,
         "weekday": 4,
         "week_idx": 17
       },
@@ -1770,7 +1770,7 @@
       {
         "date": "2026-02-19",
         "contributions": 4,
-        "level": 1,
+        "level": 2,
         "weekday": 4,
         "week_idx": 24
       },
@@ -1791,14 +1791,14 @@
       {
         "date": "2026-03-12",
         "contributions": 8,
-        "level": 2,
+        "level": 3,
         "weekday": 4,
         "week_idx": 27
       },
       {
         "date": "2026-03-19",
         "contributions": 4,
-        "level": 1,
+        "level": 2,
         "weekday": 4,
         "week_idx": 28
       },
@@ -1811,14 +1811,14 @@
       },
       {
         "date": "2026-04-02",
-        "contributions": 1,
-        "level": 1,
+        "contributions": 0,
+        "level": 0,
         "weekday": 4,
         "week_idx": 30
       },
       {
         "date": "2026-04-09",
-        "contributions": 3,
+        "contributions": 2,
         "level": 1,
         "weekday": 4,
         "week_idx": 31
@@ -1910,14 +1910,14 @@
       {
         "date": "2026-07-09",
         "contributions": 3,
-        "level": 1,
+        "level": 2,
         "weekday": 4,
         "week_idx": 44
       },
       {
         "date": "2026-07-16",
         "contributions": 10,
-        "level": 2,
+        "level": 4,
         "weekday": 4,
         "week_idx": 45
       },
@@ -1945,21 +1945,21 @@
       {
         "date": "2026-08-13",
         "contributions": 3,
-        "level": 1,
+        "level": 2,
         "weekday": 4,
         "week_idx": 49
       },
       {
         "date": "2026-08-20",
         "contributions": 4,
-        "level": 1,
+        "level": 2,
         "weekday": 4,
         "week_idx": 50
       },
       {
         "date": "2026-08-27",
         "contributions": 10,
-        "level": 2,
+        "level": 4,
         "weekday": 4,
         "week_idx": 51
       },
@@ -2004,7 +2004,7 @@
       {
         "date": "2025-10-10",
         "contributions": 5,
-        "level": 1,
+        "level": 2,
         "weekday": 5,
         "week_idx": 5
       },
@@ -2018,7 +2018,7 @@
       {
         "date": "2025-10-24",
         "contributions": 5,
-        "level": 1,
+        "level": 2,
         "weekday": 5,
         "week_idx": 7
       },
@@ -2151,7 +2151,7 @@
       {
         "date": "2026-03-06",
         "contributions": 14,
-        "level": 3,
+        "level": 4,
         "weekday": 5,
         "week_idx": 26
       },
@@ -2179,7 +2179,7 @@
       {
         "date": "2026-04-03",
         "contributions": 3,
-        "level": 1,
+        "level": 2,
         "weekday": 5,
         "week_idx": 30
       },
@@ -2200,14 +2200,14 @@
       {
         "date": "2026-04-24",
         "contributions": 6,
-        "level": 1,
+        "level": 3,
         "weekday": 5,
         "week_idx": 33
       },
       {
         "date": "2026-05-01",
         "contributions": 17,
-        "level": 3,
+        "level": 4,
         "weekday": 5,
         "week_idx": 34
       },
@@ -2235,7 +2235,7 @@
       {
         "date": "2026-05-29",
         "contributions": 9,
-        "level": 2,
+        "level": 4,
         "weekday": 5,
         "week_idx": 38
       },
@@ -2263,7 +2263,7 @@
       {
         "date": "2026-06-26",
         "contributions": 3,
-        "level": 1,
+        "level": 2,
         "weekday": 5,
         "week_idx": 42
       },
@@ -2325,8 +2325,8 @@
       },
       {
         "date": "2026-08-28",
-        "contributions": 14,
-        "level": 3,
+        "contributions": 13,
+        "level": 4,
         "weekday": 5,
         "week_idx": 51
       },
@@ -2427,7 +2427,7 @@
       {
         "date": "2025-12-06",
         "contributions": 3,
-        "level": 1,
+        "level": 2,
         "weekday": 6,
         "week_idx": 13
       },
@@ -2441,7 +2441,7 @@
       {
         "date": "2025-12-20",
         "contributions": 5,
-        "level": 1,
+        "level": 2,
         "weekday": 6,
         "week_idx": 15
       },
@@ -2504,28 +2504,28 @@
       {
         "date": "2026-02-21",
         "contributions": 10,
-        "level": 2,
+        "level": 4,
         "weekday": 6,
         "week_idx": 24
       },
       {
         "date": "2026-02-28",
         "contributions": 5,
-        "level": 1,
+        "level": 2,
         "weekday": 6,
         "week_idx": 25
       },
       {
         "date": "2026-03-07",
         "contributions": 13,
-        "level": 2,
+        "level": 4,
         "weekday": 6,
         "week_idx": 26
       },
       {
         "date": "2026-03-14",
-        "contributions": 5,
-        "level": 1,
+        "contributions": 4,
+        "level": 2,
         "weekday": 6,
         "week_idx": 27
       },
@@ -2560,21 +2560,21 @@
       {
         "date": "2026-04-18",
         "contributions": 7,
-        "level": 2,
+        "level": 3,
         "weekday": 6,
         "week_idx": 32
       },
       {
         "date": "2026-04-25",
         "contributions": 4,
-        "level": 1,
+        "level": 2,
         "weekday": 6,
         "week_idx": 33
       },
       {
         "date": "2026-05-02",
         "contributions": 17,
-        "level": 3,
+        "level": 4,
         "weekday": 6,
         "week_idx": 34
       },
@@ -2644,21 +2644,21 @@
       {
         "date": "2026-07-11",
         "contributions": 14,
-        "level": 3,
+        "level": 4,
         "weekday": 6,
         "week_idx": 44
       },
       {
         "date": "2026-07-18",
         "contributions": 10,
-        "level": 2,
+        "level": 4,
         "weekday": 6,
         "week_idx": 45
       },
       {
         "date": "2026-07-25",
         "contributions": 4,
-        "level": 1,
+        "level": 2,
         "weekday": 6,
         "week_idx": 46
       },
@@ -2984,7 +2984,7 @@
     {
       "date": "2025-10-10",
       "contributions": 5,
-      "level": 1,
+      "level": 2,
       "weekday": 5,
       "week_idx": 5
     },
@@ -3082,7 +3082,7 @@
     {
       "date": "2025-10-24",
       "contributions": 5,
-      "level": 1,
+      "level": 2,
       "weekday": 5,
       "week_idx": 7
     },
@@ -3348,7 +3348,7 @@
     {
       "date": "2025-12-01",
       "contributions": 3,
-      "level": 1,
+      "level": 2,
       "weekday": 1,
       "week_idx": 13
     },
@@ -3383,7 +3383,7 @@
     {
       "date": "2025-12-06",
       "contributions": 3,
-      "level": 1,
+      "level": 2,
       "weekday": 6,
       "week_idx": 13
     },
@@ -3411,7 +3411,7 @@
     {
       "date": "2025-12-10",
       "contributions": 3,
-      "level": 1,
+      "level": 2,
       "weekday": 3,
       "week_idx": 14
     },
@@ -3481,7 +3481,7 @@
     {
       "date": "2025-12-20",
       "contributions": 5,
-      "level": 1,
+      "level": 2,
       "weekday": 6,
       "week_idx": 15
     },
@@ -3516,7 +3516,7 @@
     {
       "date": "2025-12-25",
       "contributions": 4,
-      "level": 1,
+      "level": 2,
       "weekday": 4,
       "week_idx": 16
     },
@@ -3565,7 +3565,7 @@
     {
       "date": "2026-01-01",
       "contributions": 3,
-      "level": 1,
+      "level": 2,
       "weekday": 4,
       "week_idx": 17
     },
@@ -3600,7 +3600,7 @@
     {
       "date": "2026-01-06",
       "contributions": 6,
-      "level": 1,
+      "level": 3,
       "weekday": 2,
       "week_idx": 18
     },
@@ -3690,15 +3690,15 @@
     },
     {
       "date": "2026-01-19",
-      "contributions": 1,
-      "level": 1,
+      "contributions": 0,
+      "level": 0,
       "weekday": 1,
       "week_idx": 20
     },
     {
       "date": "2026-01-20",
       "contributions": 5,
-      "level": 1,
+      "level": 2,
       "weekday": 2,
       "week_idx": 20
     },
@@ -3908,7 +3908,7 @@
     {
       "date": "2026-02-19",
       "contributions": 4,
-      "level": 1,
+      "level": 2,
       "weekday": 4,
       "week_idx": 24
     },
@@ -3922,7 +3922,7 @@
     {
       "date": "2026-02-21",
       "contributions": 10,
-      "level": 2,
+      "level": 4,
       "weekday": 6,
       "week_idx": 24
     },
@@ -3971,14 +3971,14 @@
     {
       "date": "2026-02-28",
       "contributions": 5,
-      "level": 1,
+      "level": 2,
       "weekday": 6,
       "week_idx": 25
     },
     {
       "date": "2026-03-01",
       "contributions": 4,
-      "level": 1,
+      "level": 2,
       "weekday": 0,
       "week_idx": 26
     },
@@ -3992,7 +3992,7 @@
     {
       "date": "2026-03-03",
       "contributions": 13,
-      "level": 2,
+      "level": 4,
       "weekday": 2,
       "week_idx": 26
     },
@@ -4013,21 +4013,21 @@
     {
       "date": "2026-03-06",
       "contributions": 14,
-      "level": 3,
+      "level": 4,
       "weekday": 5,
       "week_idx": 26
     },
     {
       "date": "2026-03-07",
       "contributions": 13,
-      "level": 2,
+      "level": 4,
       "weekday": 6,
       "week_idx": 26
     },
     {
       "date": "2026-03-08",
       "contributions": 8,
-      "level": 2,
+      "level": 3,
       "weekday": 0,
       "week_idx": 27
     },
@@ -4041,21 +4041,21 @@
     {
       "date": "2026-03-10",
       "contributions": 3,
-      "level": 1,
+      "level": 2,
       "weekday": 2,
       "week_idx": 27
     },
     {
       "date": "2026-03-11",
       "contributions": 5,
-      "level": 1,
+      "level": 2,
       "weekday": 3,
       "week_idx": 27
     },
     {
       "date": "2026-03-12",
       "contributions": 8,
-      "level": 2,
+      "level": 3,
       "weekday": 4,
       "week_idx": 27
     },
@@ -4068,8 +4068,8 @@
     },
     {
       "date": "2026-03-14",
-      "contributions": 5,
-      "level": 1,
+      "contributions": 4,
+      "level": 2,
       "weekday": 6,
       "week_idx": 27
     },
@@ -4083,7 +4083,7 @@
     {
       "date": "2026-03-16",
       "contributions": 3,
-      "level": 1,
+      "level": 2,
       "weekday": 1,
       "week_idx": 28
     },
@@ -4097,14 +4097,14 @@
     {
       "date": "2026-03-18",
       "contributions": 4,
-      "level": 1,
+      "level": 2,
       "weekday": 3,
       "week_idx": 28
     },
     {
       "date": "2026-03-19",
       "contributions": 4,
-      "level": 1,
+      "level": 2,
       "weekday": 4,
       "week_idx": 28
     },
@@ -4132,7 +4132,7 @@
     {
       "date": "2026-03-23",
       "contributions": 18,
-      "level": 3,
+      "level": 4,
       "weekday": 1,
       "week_idx": 29
     },
@@ -4195,21 +4195,21 @@
     {
       "date": "2026-04-01",
       "contributions": 4,
-      "level": 1,
+      "level": 2,
       "weekday": 3,
       "week_idx": 30
     },
     {
       "date": "2026-04-02",
-      "contributions": 1,
-      "level": 1,
+      "contributions": 0,
+      "level": 0,
       "weekday": 4,
       "week_idx": 30
     },
     {
       "date": "2026-04-03",
       "contributions": 3,
-      "level": 1,
+      "level": 2,
       "weekday": 5,
       "week_idx": 30
     },
@@ -4250,7 +4250,7 @@
     },
     {
       "date": "2026-04-09",
-      "contributions": 3,
+      "contributions": 2,
       "level": 1,
       "weekday": 4,
       "week_idx": 31
@@ -4314,35 +4314,35 @@
     {
       "date": "2026-04-18",
       "contributions": 7,
-      "level": 2,
+      "level": 3,
       "weekday": 6,
       "week_idx": 32
     },
     {
       "date": "2026-04-19",
       "contributions": 8,
-      "level": 2,
+      "level": 3,
       "weekday": 0,
       "week_idx": 33
     },
     {
       "date": "2026-04-20",
       "contributions": 3,
-      "level": 1,
+      "level": 2,
       "weekday": 1,
       "week_idx": 33
     },
     {
       "date": "2026-04-21",
       "contributions": 10,
-      "level": 2,
+      "level": 4,
       "weekday": 2,
       "week_idx": 33
     },
     {
       "date": "2026-04-22",
       "contributions": 6,
-      "level": 1,
+      "level": 3,
       "weekday": 3,
       "week_idx": 33
     },
@@ -4356,14 +4356,14 @@
     {
       "date": "2026-04-24",
       "contributions": 6,
-      "level": 1,
+      "level": 3,
       "weekday": 5,
       "week_idx": 33
     },
     {
       "date": "2026-04-25",
       "contributions": 4,
-      "level": 1,
+      "level": 2,
       "weekday": 6,
       "week_idx": 33
     },
@@ -4405,14 +4405,14 @@
     {
       "date": "2026-05-01",
       "contributions": 17,
-      "level": 3,
+      "level": 4,
       "weekday": 5,
       "week_idx": 34
     },
     {
       "date": "2026-05-02",
       "contributions": 17,
-      "level": 3,
+      "level": 4,
       "weekday": 6,
       "week_idx": 34
     },
@@ -4440,7 +4440,7 @@
     {
       "date": "2026-05-06",
       "contributions": 9,
-      "level": 2,
+      "level": 4,
       "weekday": 3,
       "week_idx": 35
     },
@@ -4468,7 +4468,7 @@
     {
       "date": "2026-05-10",
       "contributions": 5,
-      "level": 1,
+      "level": 2,
       "weekday": 0,
       "week_idx": 36
     },
@@ -4566,7 +4566,7 @@
     {
       "date": "2026-05-24",
       "contributions": 7,
-      "level": 2,
+      "level": 3,
       "weekday": 0,
       "week_idx": 38
     },
@@ -4601,7 +4601,7 @@
     {
       "date": "2026-05-29",
       "contributions": 9,
-      "level": 2,
+      "level": 4,
       "weekday": 5,
       "week_idx": 38
     },
@@ -4636,7 +4636,7 @@
     {
       "date": "2026-06-03",
       "contributions": 4,
-      "level": 1,
+      "level": 2,
       "weekday": 3,
       "week_idx": 39
     },
@@ -4664,7 +4664,7 @@
     {
       "date": "2026-06-07",
       "contributions": 6,
-      "level": 1,
+      "level": 3,
       "weekday": 0,
       "week_idx": 40
     },
@@ -4678,7 +4678,7 @@
     {
       "date": "2026-06-09",
       "contributions": 4,
-      "level": 1,
+      "level": 2,
       "weekday": 2,
       "week_idx": 40
     },
@@ -4762,7 +4762,7 @@
     {
       "date": "2026-06-21",
       "contributions": 4,
-      "level": 1,
+      "level": 2,
       "weekday": 0,
       "week_idx": 42
     },
@@ -4797,7 +4797,7 @@
     {
       "date": "2026-06-26",
       "contributions": 3,
-      "level": 1,
+      "level": 2,
       "weekday": 5,
       "week_idx": 42
     },
@@ -4832,7 +4832,7 @@
     {
       "date": "2026-07-01",
       "contributions": 10,
-      "level": 2,
+      "level": 4,
       "weekday": 3,
       "week_idx": 43
     },
@@ -4860,7 +4860,7 @@
     {
       "date": "2026-07-05",
       "contributions": 15,
-      "level": 3,
+      "level": 4,
       "weekday": 0,
       "week_idx": 44
     },
@@ -4874,7 +4874,7 @@
     {
       "date": "2026-07-07",
       "contributions": 17,
-      "level": 3,
+      "level": 4,
       "weekday": 2,
       "week_idx": 44
     },
@@ -4888,7 +4888,7 @@
     {
       "date": "2026-07-09",
       "contributions": 3,
-      "level": 1,
+      "level": 2,
       "weekday": 4,
       "week_idx": 44
     },
@@ -4902,14 +4902,14 @@
     {
       "date": "2026-07-11",
       "contributions": 14,
-      "level": 3,
+      "level": 4,
       "weekday": 6,
       "week_idx": 44
     },
     {
       "date": "2026-07-12",
       "contributions": 8,
-      "level": 2,
+      "level": 3,
       "weekday": 0,
       "week_idx": 45
     },
@@ -4923,7 +4923,7 @@
     {
       "date": "2026-07-14",
       "contributions": 8,
-      "level": 2,
+      "level": 3,
       "weekday": 2,
       "week_idx": 45
     },
@@ -4937,7 +4937,7 @@
     {
       "date": "2026-07-16",
       "contributions": 10,
-      "level": 2,
+      "level": 4,
       "weekday": 4,
       "week_idx": 45
     },
@@ -4951,28 +4951,28 @@
     {
       "date": "2026-07-18",
       "contributions": 10,
-      "level": 2,
+      "level": 4,
       "weekday": 6,
       "week_idx": 45
     },
     {
       "date": "2026-07-19",
       "contributions": 6,
-      "level": 1,
+      "level": 3,
       "weekday": 0,
       "week_idx": 46
     },
     {
       "date": "2026-07-20",
       "contributions": 8,
-      "level": 2,
+      "level": 3,
       "weekday": 1,
       "week_idx": 46
     },
     {
       "date": "2026-07-21",
       "contributions": 5,
-      "level": 1,
+      "level": 2,
       "weekday": 2,
       "week_idx": 46
     },
@@ -5000,7 +5000,7 @@
     {
       "date": "2026-07-25",
       "contributions": 4,
-      "level": 1,
+      "level": 2,
       "weekday": 6,
       "week_idx": 46
     },
@@ -5021,7 +5021,7 @@
     {
       "date": "2026-07-28",
       "contributions": 7,
-      "level": 2,
+      "level": 3,
       "weekday": 2,
       "week_idx": 47
     },
@@ -5119,21 +5119,21 @@
     {
       "date": "2026-08-11",
       "contributions": 8,
-      "level": 2,
+      "level": 3,
       "weekday": 2,
       "week_idx": 49
     },
     {
       "date": "2026-08-12",
       "contributions": 3,
-      "level": 1,
+      "level": 2,
       "weekday": 3,
       "week_idx": 49
     },
     {
       "date": "2026-08-13",
       "contributions": 3,
-      "level": 1,
+      "level": 2,
       "weekday": 4,
       "week_idx": 49
     },
@@ -5182,7 +5182,7 @@
     {
       "date": "2026-08-20",
       "contributions": 4,
-      "level": 1,
+      "level": 2,
       "weekday": 4,
       "week_idx": 50
     },
@@ -5231,14 +5231,14 @@
     {
       "date": "2026-08-27",
       "contributions": 10,
-      "level": 2,
+      "level": 4,
       "weekday": 4,
       "week_idx": 51
     },
     {
       "date": "2026-08-28",
-      "contributions": 14,
-      "level": 3,
+      "contributions": 13,
+      "level": 4,
       "weekday": 5,
       "week_idx": 51
     },
@@ -5251,8 +5251,8 @@
     },
     {
       "date": "2026-08-30",
-      "contributions": 0,
-      "level": 0,
+      "contributions": 2,
+      "level": 1,
       "weekday": 0,
       "week_idx": 52
     }
