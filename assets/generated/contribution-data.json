@@ -1,12 +1,12 @@
 {
   "username": "SaitejaKommi",
-  "generated_at": "2026-08-30T20:07:53.747516+00:00",
+  "generated_at": "2026-08-31T01:43:22.171710+00:00",
   "total_contributions": 658,
   "active_days": 119,
-  "total_calendar_days": 365,
+  "total_calendar_days": 366,
   "num_weeks": 53,
   "start_date": "2025-08-31",
-  "end_date": "2026-08-30",
+  "end_date": "2026-08-31",
   "current_streak": 8,
   "longest_streak": 29,
   "weekday_names": [
@@ -85,7 +85,7 @@
       "name": "Mon",
       "total_contributions": 72,
       "active_days": 14,
-      "total_days": 52
+      "total_days": 53
     },
     {
       "weekday": 2,
@@ -862,7 +862,13 @@
         "weekday": 1,
         "week_idx": 51
       },
-      null
+      {
+        "date": "2026-08-31",
+        "contributions": 0,
+        "level": 0,
+        "weekday": 1,
+        "week_idx": 52
+      }
     ],
     [
       {
@@ -5254,6 +5260,13 @@
       "contributions": 2,
       "level": 1,
       "weekday": 0,
+      "week_idx": 52
+    },
+    {
+      "date": "2026-08-31",
+      "contributions": 0,
+      "level": 0,
+      "weekday": 1,
       "week_idx": 52
     }
   ]
