@@ -1,8 +1,8 @@
 {
   "username": "SaitejaKommi",
-  "generated_at": "2026-09-02T09:59:33.610110+00:00",
-  "total_contributions": 658,
-  "active_days": 119,
+  "generated_at": "2026-09-02T15:23:41.352947+00:00",
+  "total_contributions": 647,
+  "active_days": 117,
   "total_calendar_days": 368,
   "num_weeks": 53,
   "start_date": "2025-08-31",
@@ -83,8 +83,8 @@
     {
       "weekday": 1,
       "name": "Mon",
-      "total_contributions": 72,
-      "active_days": 14,
+      "total_contributions": 71,
+      "active_days": 13,
       "total_days": 53
     },
     {
@@ -104,8 +104,8 @@
     {
       "weekday": 4,
       "name": "Thu",
-      "total_contributions": 89,
-      "active_days": 16,
+      "total_contributions": 88,
+      "active_days": 15,
       "total_days": 52
     },
     {
@@ -118,7 +118,7 @@
     {
       "weekday": 6,
       "name": "Sat",
-      "total_contributions": 123,
+      "total_contributions": 114,
       "active_days": 16,
       "total_days": 52
     }
@@ -654,8 +654,8 @@
       },
       {
         "date": "2026-02-02",
-        "contributions": 1,
-        "level": 1,
+        "contributions": 0,
+        "level": 0,
         "weekday": 1,
         "week_idx": 22
       },
@@ -1745,8 +1745,8 @@
       },
       {
         "date": "2026-01-08",
-        "contributions": 1,
-        "level": 1,
+        "contributions": 0,
+        "level": 0,
         "weekday": 4,
         "week_idx": 18
       },
@@ -2535,14 +2535,14 @@
       },
       {
         "date": "2026-03-07",
-        "contributions": 13,
-        "level": 4,
+        "contributions": 5,
+        "level": 2,
         "weekday": 6,
         "week_idx": 26
       },
       {
         "date": "2026-03-14",
-        "contributions": 4,
+        "contributions": 3,
         "level": 2,
         "weekday": 6,
         "week_idx": 27
@@ -3631,8 +3631,8 @@
     },
     {
       "date": "2026-01-08",
-      "contributions": 1,
-      "level": 1,
+      "contributions": 0,
+      "level": 0,
       "weekday": 4,
       "week_idx": 18
     },
@@ -3806,8 +3806,8 @@
     },
     {
       "date": "2026-02-02",
-      "contributions": 1,
-      "level": 1,
+      "contributions": 0,
+      "level": 0,
       "weekday": 1,
       "week_idx": 22
     },
@@ -4037,8 +4037,8 @@
     },
     {
       "date": "2026-03-07",
-      "contributions": 13,
-      "level": 4,
+      "contributions": 5,
+      "level": 2,
       "weekday": 6,
       "week_idx": 26
     },
@@ -4086,7 +4086,7 @@
     },
     {
       "date": "2026-03-14",
-      "contributions": 4,
+      "contributions": 3,
       "level": 2,
       "weekday": 6,
       "week_idx": 27
