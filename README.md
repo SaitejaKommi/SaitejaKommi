@@ -16,7 +16,7 @@
 
 ## About Me
 
-AI Engineer focused on Machine Learning, Generative AI, and intelligent systems. I build practical AI applications and robust backend systems, while actively contributing to open-source software and exploring autonomous AI workflows.
+19yo AI Engineer focused on Machine Learning, Generative AI, and intelligent systems. I build practical AI applications and robust backend systems, while actively contributing to open-source software and exploring autonomous AI workflows.
 
 ---
 
