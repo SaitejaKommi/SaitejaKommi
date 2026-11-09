@@ -23,7 +23,7 @@
 ## My GitHub Journey
 
 <p align="center">
-  <img src="assets/generated/mario-github.gif?v=1794182509" alt="Mario traveling through my GitHub contribution history" width="100%" />
+  <img src="assets/generated/mario-github.gif?v=1794204115" alt="Mario traveling through my GitHub contribution history" width="100%" />
 </p>
 
 > A visual journey through my real GitHub contribution history — Mario navigates the calendar, crushes contribution blocks, and collects coins based on my actual activity.
